@@ -1,7 +1,6 @@
 import streamlit as st
 import random
 import numpy as np
-from scipy.io.wavfile import write as write_wav
 import io
 import base64
 
