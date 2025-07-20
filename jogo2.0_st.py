@@ -92,7 +92,7 @@ with st.sidebar:
     - A imagem abaixo ilustra as regras do jogo.
     """)
 
-    image = Image.open("imagens/regras_jogo.png")
+    image = Image.open("regras_jogo.png")
     st.sidebar.image(image, caption="Entenda as Regras!", use_container_width=True)
 
     st.write("🏆 **Vitória:**")
